@@ -6,24 +6,7 @@ This single-file starter contains:
  - Firebase integration placeholders (Firestore) for realtime storage
  - Simple mobile-money / Wave payment mock flow (hook for real integration)
  - Bracket generation logic for 32 players
- - Responsive, elegant style (red, yellow, black) using Tailwind classes
-
-HOW TO USE
-1. Create a React app (Vite or Create React App).
-2. Install dependencies:
-   npm install react-router-dom firebase
-3. Add Tailwind CSS to the project (follow Tailwind docs).
-4. Replace the Firebase config placeholders with your project values.
-5. Start the app: npm run dev
-
-NOTES ON PAYMENT
-- This project uses a MOCK payment flow for testing.
-- For production, integrate a mobile money provider (Wave/MTN/Orange) or a payment gateway (Flutterwave).
-- Implement server-side endpoints to verify transactions & update Firestore on confirmation.
-
-HOSTING
-- Frontend: Vercel / Netlify (recommended)
-- Backend (if needed): Render / Railway / Firebase Cloud Functions
+ - Responsive, elegant style (red, yellow, black) using Tailwind classe 
 
 ENV VARIABLES (example .env)
 REACT_APP_FIREBASE_API_KEY=...
